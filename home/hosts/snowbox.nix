@@ -1,6 +1,6 @@
 {
 	imports = [
-		{ _module.args.theme = { colors = import ../.themes/javacafe.nix; }; }
+		{ _module.args.theme = { colors = import ../themes/javacafe.nix; }; }
 		../packages/alacritty
 		../packages/discocss
 		../packages/firefox
