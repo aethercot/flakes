@@ -12,6 +12,8 @@
     };
 
     packages = with pkgs; [
+      _1password-gui
+
       # Art
       aseprite
       
@@ -21,7 +23,6 @@
       # Media
       spotify
       youtube-tui
-
 
       # Terminal
       neofetch

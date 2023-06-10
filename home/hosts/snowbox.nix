@@ -1,12 +1,16 @@
 {
 	imports = [
-		{ _module.args.theme = { colors = import ../themes/javacafe.nix; }; }
+		{ _module.args.theme = { colors = import ../.themes/javacafe.nix; }; }
 		../packages/alacritty
 		../packages/discocss
 		../packages/firefox
 		../packages/git
 		../packages/hyprland
 		../packages/neovim
+		../packages/tmux
+		../packages/zsh
+
+		../packages/wayland.nix
 	];
 
 	home.sessionVariables = {
