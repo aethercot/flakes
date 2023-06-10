@@ -57,4 +57,6 @@
 			};
 		};
 	};
+
+	time.hardwareClockInLocalTime = true;
 }
