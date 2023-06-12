@@ -7,6 +7,7 @@
 		../packages/git
 		../packages/hyprland
 		../packages/neovim
+		../packages/rofi
 		../packages/tmux
 		../packages/zsh
 
