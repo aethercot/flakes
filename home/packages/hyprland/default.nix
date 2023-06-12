@@ -34,6 +34,7 @@
 
     bind = $mod, Return, exec, alacritty
     bind = $mod, B, exec, BROWSER
+    bind = $mod, Space, exec, pkill rofi || rofi -show drun
 
     # Move focus
     bind = $mod, left, movefocus, l
