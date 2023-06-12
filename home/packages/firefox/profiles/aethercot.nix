@@ -32,20 +32,19 @@ let defaultSettings = {
 
 # Disable Firefox account features
 	"identity.fxaccounts.enabled" = false;
+	extensions = with pkgs.nur.repos.rycee.firefox-addons; [
+		onepassword-password-manager
+		ublock-origin
+	];
 }; in {
 	id = 0;
 	settings = defaultSettings // {
 # Does not work. pls help: "extensions.activeThemeID" = "2022yellow-colorway@mozilla.org";
 
 # Firefox Dark Theme
-		"browser.theme.content-theme" = 0;
+	"browser.theme.content-theme" = 0;
 	"browser.theme.toolbar-theme" = 0;
 	"extensions.activeThemeID" = "firefox-compact-dark@mozilla.org";
 };
 
-#extensions = 
-#with pkgs.nur.repos.rycee.firefox-addons; [
-#	ublock-origin
-#	lesspass
-#];
 }

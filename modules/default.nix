@@ -21,6 +21,8 @@ in {
 					
 					inputs.hyprland.nixosModules.default
 
+					inputs.nur.nixosModules.nur
+
 					module_args
 
                                         ./audio.nix
